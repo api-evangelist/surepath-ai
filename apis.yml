@@ -1,7 +1,25 @@
 aid: surepath-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/surepath-ai.png
 name: SurePath AI
-description: SurePath AI is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: SurePath AI (now part of F5) is an enterprise AI governance and security
+  platform that lets organizations safely adopt generative AI across their workforce.
+  The platform gives security and IT teams visibility into GenAI usage by recording
+  conversations, mitigates risk by detecting and redacting sensitive data in prompts
+  and enforcing role-based access guardrails to public and private models, and
+  increases safe adoption through a branded enterprise GenAI portal that enriches
+  interactions with enterprise data. It is delivered as a SaaS product with an admin
+  console rather than a public developer API, and maintains SOC 2 compliance.
 url: https://raw.githubusercontent.com/api-evangelist/surepath-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Governance
+- AI Security
+- Generative AI
+- Enterprise AI
+- Data Loss Prevention
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.surepath.ai
+- type: Blog
+  url: https://www.surepath.ai/blog
+- type: Support
+  url: https://www.surepath.ai/frequently-asked-questions
+- type: Login
+  url: https://admin.surepath.ai/
+- type: PrivacyPolicy
+  url: https://www.surepath.ai/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.surepath.ai/legal/software-subscription-agreement
+- type: Compliance
+  url: https://www.surepath.ai
+- type: DomainSecurity
+  url: security/surepath-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
